@@ -31,3 +31,41 @@
 .profile_image img{
     width: 100%;
 }
+
+/* Information */
+.profile_information{
+    top:0;
+    left:0;
+    margin: -27px 10px 30px;
+}
+
+.profile_information .MuiTimeline-root {
+    padding: 0;
+}
+
+.profile_information .timeline .timeline_content{
+  margin-bottom: 12px;
+}
+
+.timeline_item_text{
+    font-size: 13.5px !important;
+    font-weight: 400;
+    color: #787878;
+}
+.timeline_item_text span{
+    font-size: 13.5px !important;
+    font-weight: 400;
+    color:black;
+}
+.timeline_item_text a{
+    font-size: 13.5px !important;
+    font-weight: 400;
+    color: #787878;
+    text-decoration: none;
+}
+.timeline_item_text a:hover{
+    font-size: 13.5px !important;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: underline;
+}

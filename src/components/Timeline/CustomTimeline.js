@@ -7,7 +7,7 @@ import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import './CustomeTimeline.css';
 import { Typography } from '@material-ui/core';
-import WorkIcon from '@material-ui/icons/Work';
+
 
 const CustomTimeline = ({title, icon, children}) => {
     return (
@@ -21,9 +21,10 @@ const CustomTimeline = ({title, icon, children}) => {
                 </TimelineSeparator>
                 <TimelineContent><Typography variant='h6' className='timeline_content_header'>{title}</Typography></TimelineContent>
             </TimelineItem>
-
-{children}
+            
             {/*Remaining items*/}
+        {children}
+            
         </Timeline>
            
     )
