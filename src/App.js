@@ -10,8 +10,8 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <Container>
-      <Grid container>
+    <Container className='top_60'>
+      <Grid container spacing={7}>
         <Grid item xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
