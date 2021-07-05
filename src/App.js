@@ -15,9 +15,9 @@ function App() {
         <Grid item xs={12} sm={12} md={4} lg={3}>
           <Profile />
         </Grid>
-        <Grid item xs={12} sm={12} md={7} lg={7} style={{ backgroundColor: "yellow" }}>
-          <Header />
+        <Grid item xs={12} sm={12} md={7} lg={7}>
           <Router>
+            <Header />
             <Switch>
               <Route exact path='/' component={Resume} />
               <Route exact path='/portfolio' component={Portfolio} />
