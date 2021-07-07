@@ -1,0 +1,26 @@
+.footer{
+    background: #1e1e1e;
+    min-height: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    line-height: 72px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+   padding: 20px 25px;
+}
+
+.footer .footer_right .footer_copyright{
+    font-size: small;
+    color: #9c9c9c;
+    text-align: end;
+}
+
+.footer .footer_left .footer_name{
+    font-size: 15px;
+}
