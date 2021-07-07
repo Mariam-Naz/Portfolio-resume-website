@@ -1,12 +1,12 @@
 :root{
-    --main-color:#ffc500;
+    --main-color:#ffb100;
 }
 
 /* Margin & Padding */
 .top_60{
     margin-top: 60px !important;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+    margin-left: 7% !important;
+    margin-right: 7% !important;
 }
 
 /* For shadow */

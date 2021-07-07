@@ -7,11 +7,12 @@ import {NavLink, Link, withRouter} from 'react-router-dom';
 import { HomeRounded , LinkedIn, Facebook, Github, SchoolRounded, Telegram, Mail } from '@material-ui/icons';
 import ResumeData from '../../utils/resumeData';
 import CustomBtn from '../Button/CustomBtn';
+import './Header.css';
 
 const Header = (props) => {
     const pathName = props?.location?.pathname;
     return (
-        <Navbar expand="lg" sticky='top' className='header'>
+        <Navbar expand="lg" className='header'>
             <Nav.Link as={NavLink} to='/'>
                 <Navbar.Brand className='header_home'><HomeRounded /></Navbar.Brand>
             </Nav.Link>
@@ -23,17 +24,17 @@ const Header = (props) => {
                     to='/'
                     className={pathName=='/' ? 'header_active_link' : 'header_link'}
                     >
-                        Resume
+                        RESUME
                     </Nav.Link>
                     <Nav.Link
                         as={NavLink}
                         to='/portfolio'
                         className={pathName == '/portfolio' ? 'header_active_link' : 'header_link'}
                     >
-                        Portfolio
+                        PORTFOLIO
                     </Nav.Link>
                     </Nav>
-                    <div>
+                    <div className='header_right'>
                         {Object.keys(ResumeData.socials).map(key=>(
                             <a href={ResumeData.socials[key].link}>{ResumeData.socials[key].icon}</a>
                         ))}
@@ -44,4 +45,4 @@ const Header = (props) => {
     )
 }
 
-export default Header
+export default withRouter(Header);
