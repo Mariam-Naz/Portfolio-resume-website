@@ -18,10 +18,12 @@ function App() {
         <Grid item xs={12} sm={12} md={7} lg={7}>
           <Router>
             <Header />
-            <Switch>
-              <Route exact path='/' component={Resume} />
-              <Route exact path='/portfolio' component={Portfolio} />
-            </Switch>
+            <div className='main-content container_shadow'>
+              <Switch>
+                <Route exact path='/' component={Resume} />
+                <Route exact path='/portfolio' component={Portfolio} />
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>
