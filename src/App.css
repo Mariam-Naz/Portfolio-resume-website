@@ -5,12 +5,15 @@
 /* Margin & Padding */
 .top_60{
     margin-top: 60px !important;
-    margin-left: 7% !important;
-    margin-right: 7% !important;
+    
 }
 
 .top_30{
     margin-top: 30px !important;
+}
+
+.top_15{
+    margin-top: 15px !important;
 }
 
 .mb_30{
@@ -42,7 +45,6 @@
     background-color: white !important;
     border-radius: 6px;
     margin-bottom: 30px;
-    padding: 30px;
     min-height: 100vh;
     
 }
@@ -68,4 +70,13 @@
     opacity: 0.4;
     left: 0;
     background-color: var(--main-color);
+}
+
+.section_graybg{
+    background-color: #fafafa;
+    padding: 50px 30px;
+}
+
+.section{
+    padding: 30px 30px 45px 30px !important;
 }

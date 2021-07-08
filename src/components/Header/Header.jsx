@@ -21,8 +21,8 @@ const Header = (props) => {
                     <Nav className="me-auto">
                     <Nav.Link 
                     as={NavLink} 
-                    to='/'
-                    className={pathName=='/' ? 'header_active_link' : 'header_link'}
+                    to='/resume'
+                    className={pathName=='/resume' ? 'header_active_link' : 'header_link'}
                     >
                         RESUME
                     </Nav.Link>

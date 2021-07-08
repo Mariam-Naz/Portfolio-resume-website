@@ -25,7 +25,7 @@ const Profile = () => {
                 <Typography className='title'>{ResumeData.title}</Typography>
             </div>
             <figure class='profile_image'>
-                <img src={profile_pic} />
+                <img src={profile_pic} alt='profile_image'/>
             </figure>
             <div class='profile_information'>
                 <CustomTimeline icon={<PersonOutlineIcon />}>

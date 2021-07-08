@@ -1,0 +1,31 @@
+.service-card{
+    min-width: 150px;
+    min-height: 186px;
+    display: flex;
+    justify-content: center;
+}
+.service-card .MuiCardContent-root{
+    padding: 20px !important;
+}
+.service-card-icon{
+    width: 44px;
+    height: 44px;
+    vertical-align:baseline !important;
+}
+.service-card-title-div{
+    display: flex;
+     align-items: center;
+    height: 50px;
+}
+.service-card-title{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    padding: 5px 0;
+}
+
+.service-card-text{
+    color: #989898 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+    font-size: 13px;
+}
