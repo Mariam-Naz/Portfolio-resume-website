@@ -45,7 +45,6 @@
     border-radius: 6px;
     margin-bottom: 30px;
     min-height: 100vh;
-    padding: 15px;
 }
 
 .section_title{
@@ -74,13 +73,9 @@
 .section_graybg{
     background-color: #fafafa;
     padding: 50px 30px;
-    margin-right: -15px;
-    margin-left: -15px;
 
 }
 
 .section{
     padding: 30px 30px 45px 30px !important;
-    margin-right: -15px;
-    margin-left: -15px;
 }

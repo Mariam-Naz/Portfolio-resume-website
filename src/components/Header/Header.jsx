@@ -38,7 +38,7 @@ const Header = (props) => {
                         {Object.keys(ResumeData.socials).map(key=>(
                             <a href={ResumeData.socials[key].link}>{ResumeData.socials[key].icon}</a>
                         ))}
-                        <CustomBtn text='Hire Me' icon={<Telegram />} />
+                        <CustomBtn text='Hire Me' icon={<Telegram />} style={{float:"right"}}/>
                     </div>
                 </Navbar.Collapse>
         </Navbar>

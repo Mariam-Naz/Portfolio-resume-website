@@ -2,6 +2,7 @@ import React from 'react';
 import { Typography } from '@material-ui/core';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import TimelineDot from '@material-ui/lab/TimelineDot';
 import webDevelopment from '../../assets/icons/web-development.png';
 import sqa from '../../assets/icons/sqa.png';
 import './CustomCard.css';
@@ -18,9 +19,16 @@ const CustomCard = ({title, text, icon}) => {
                     {title}
                 </Typography>
                 </div>
-                <Typography className='service-card-text'>
-                   {text}
-                </Typography>
+                {icon ? (<Typography className='service-card-text'>
+                    {text}
+                </Typography>) : (
+                        text.map(description => (
+                            <Typography className='skill-card-text'>
+                                <TimelineDot variant='outlined' className='skill-dot'/>
+                                {description}
+                            </Typography>
+                   )))
+                }
             </CardContent>
             
         </Card>

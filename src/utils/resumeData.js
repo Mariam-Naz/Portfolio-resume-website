@@ -55,6 +55,10 @@ export default{
         {
             title: 'Frontend development',
             description: ['ReactJS', 'Javascript', 'jQuery', 'Bootstrap', 'Material UI', 'UIkit', 'Tailwind CSS' ]
+        },
+          {
+            title: 'Backend development',
+            description: ['PHP', 'Laravel', 'Wordpress', 'MySQL']
         }
     ]
 }
