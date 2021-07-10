@@ -46,8 +46,15 @@ export default{
         },
         sqa:{
             title: 'Software Quality Assurance',
-            text: 'I have been working on web design for 10 years.',
+            text: 'I have been working.',
             icon: sqa
         }
-    }
+    },
+
+    skills:[
+        {
+            title: 'Frontend development',
+            description: ['ReactJS', 'Javascript', 'jQuery', 'Bootstrap', 'Material UI', 'UIkit', 'Tailwind CSS' ]
+        }
+    ]
 }

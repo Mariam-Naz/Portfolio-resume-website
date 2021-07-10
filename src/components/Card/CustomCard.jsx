@@ -4,15 +4,15 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import webDevelopment from '../../assets/icons/web-development.png';
 import sqa from '../../assets/icons/sqa.png';
-import './ServiceCard.css';
+import './CustomCard.css';
 
 
-const ServiceCard = ({title, text, icon}) => {
+const CustomCard = ({title, text, icon}) => {
 
     return (
         <Card className='service-card'>
             <CardContent>
-                <img className='service-card-icon' src={icon} alt={title} />
+                {icon ? (<img className='service-card-icon' src={icon} alt={title} /> ): null}
                 <div className='service-card-title-div'>
                 <Typography className='service-card-title'>
                     {title}
@@ -27,4 +27,4 @@ const ServiceCard = ({title, text, icon}) => {
     );
 }
 
-export default ServiceCard
+export default CustomCard
