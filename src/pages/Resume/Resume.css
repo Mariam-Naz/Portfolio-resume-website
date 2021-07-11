@@ -1,0 +1,21 @@
+.timeline-content{
+    padding: 0 0 40px 30px !important;
+
+}
+.timeline-content .timeline-item-title{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.timeline-content .timeline-item-duration{
+    font-size: 12px;
+    padding: 0px 0px 9px 0;
+    display: block;
+}
+
+.timeline-content .timeline-item-text{
+    color: #989898;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 13px;
+}

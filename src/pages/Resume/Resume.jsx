@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Grid} from '@material-ui/core';
 import CustomTimeline, { CustomTimelineSeparator } from '../../components/Timeline/CustomTimeline';
 import {Work, School} from '@material-ui/icons';
 import TimelineItem from '@material-ui/lab/TimelineItem';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import { Typography } from '@material-ui/core';
+import ResumeData from '../../utils/resumeData';
+import "./Resume.css";
 
-const CustomTimelineWordExpItems = ({ title, text, duration }) => {
+const CustomTimelineWordExpItems = ({ title, text, duration, carrLength, cid }) => {
     return (<TimelineItem>
-        <CustomTimelineSeparator />
+        <CustomTimelineSeparator arrLength={carrLength} id={cid}/>
         <TimelineContent className='timeline-content'>
             <Typography className='timeline-item-title'>{title}</Typography>
             <Typography className='timeline-item-duration'>{duration}</Typography>
@@ -18,7 +20,9 @@ const CustomTimelineWordExpItems = ({ title, text, duration }) => {
     )
 }
 
+
 const Resume = () => {
+
     return (
         <>
             <Grid container className='section'>
@@ -30,16 +34,29 @@ const Resume = () => {
                     <Grid container>
                         <Grid item xs={12} sm={12} md={6} lg={6}>
                             <CustomTimeline title={"Working History"} icon={<Work/>}>
-                                <CustomTimelineWordExpItems 
-                                title={"Art Director - Facebook Inc"} 
-                                duration={"2010 - Present"}
-                                    text={"Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor."}
-                                />
+                                {ResumeData.works.map(work=>
+                                    <CustomTimelineWordExpItems
+                                        title={work.title}
+                                        duration={work.duration}
+                                        text={work.text}
+                                        cid={work.id}
+                                        carrLength={ResumeData.works.length}
+                                    />
+                                
+                                )}
                             </CustomTimeline>
                         </Grid>
                         <Grid item xs>
                             <CustomTimeline title={"Education Histor"} icon={<School />}>
-
+                                {ResumeData.works.map(work => (
+                                    <CustomTimelineWordExpItems
+                                        title={work.title}
+                                        duration={work.duration}
+                                        text={work.text}
+                                        cid={work.id}
+                                        carrLength={ResumeData.works.length}
+                                    />
+                                ))}
                             </CustomTimeline>
                         </Grid>
                     </Grid>
