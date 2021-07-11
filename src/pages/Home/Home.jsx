@@ -15,7 +15,6 @@ const Home = () => {
                     <h6 className='section_title_text'>About Me</h6>
             </Grid>
             <Grid item xs={12} className='about_body top_30'>
-                <span></span>
                 <Typography variant='body2'>{ResumeData.about}</Typography>
             </Grid>
         </Grid>

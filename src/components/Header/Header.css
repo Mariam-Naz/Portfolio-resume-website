@@ -11,12 +11,21 @@
     height: 70px;
 }
 
-.header .navbar-collapse {
-    padding: 20px !important;
-    background-color: white !important;
-    line-height: 50px !important;
-    z-index: 10 !important;
-    height: 300% !important;
+
+@media screen and (max-width:991px) {
+    .header .navbar-collapse {
+        padding: 20px !important;
+        line-height: 50px !important;
+       
+    }
+
+    .header{
+        height: auto  !important;
+    }
+
+    .custom_btn{
+        float: right;
+    } 
 }
 .header .header_link{
     font-size: 15px !important;
@@ -46,7 +55,7 @@
     border-bottom-left-radius: 6px;
     border-top-left-radius: 6px;
     transition: all ease 0.4s;
-     height: 71px;
+     height: 70.5px;
 }
 
 .header .header_home:hover{
