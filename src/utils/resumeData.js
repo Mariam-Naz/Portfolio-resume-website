@@ -54,11 +54,11 @@ export default {
 
     skills: [
         {
-            title: 'Frontend development',
+            title: 'Frontend Development',
             description: ['ReactJS', 'Javascript', 'jQuery', 'Bootstrap', 'Material UI', 'UIkit', 'Tailwind CSS']
         },
         {
-            title: 'Backend development',
+            title: 'Backend Development',
             description: ['PHP', 'Laravel', 'Wordpress', 'MySQL', 'Ajax']
         }
     ],

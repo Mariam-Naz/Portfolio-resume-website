@@ -33,6 +33,13 @@ const Header = (props) => {
                     >
                         PORTFOLIO
                     </Nav.Link>
+                    <Nav.Link
+                        as={NavLink}
+                        to='/contact'
+                        className={pathName == '/contact' ? 'header_active_link' : 'header_link'}
+                    >
+                        CONTACT
+                    </Nav.Link>
                     </Nav>
                     <div className='header_right'>
                         {Object.keys(ResumeData.socials).map(key=>(
