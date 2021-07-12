@@ -10,7 +10,7 @@ const Home = () => {
        <>
         {/* About me  */}
         <Grid container className='section'>
-            <Grid item className='section_title mb_30'>
+            <Grid item className='section_title'>
                 <span></span>
                     <h6 className='section_title_text'>About Me</h6>
             </Grid>

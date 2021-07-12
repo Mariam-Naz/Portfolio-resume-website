@@ -5,7 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import MailIcon from '@material-ui/icons/Mail';
 import sqa from '../assets/icons/sqa.png';
 import webDevelopment from '../assets/icons/web-development.png';
-
+import tindogApp from '../assets/images/tindog-app.png';
 export default {
   
         name: 'Mariam Naz',
