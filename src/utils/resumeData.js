@@ -77,5 +77,14 @@ export default {
             text: "Used Stripe Api with Laravel framework, Worked on a Management system, Worked on plugin creation and customization, Website maintainance and Debugging the issues",
         },
 
+    ],
+
+    portfolios:[
+        {
+            title: "TinDog Website",
+            text: 'Fully Responsive Landing Page',
+            image: tindogApp,
+            link: 'http://tindog-app.surge.sh/'
+        }
     ]
 }

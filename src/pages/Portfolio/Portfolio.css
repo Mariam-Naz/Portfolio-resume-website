@@ -1,0 +1,7 @@
+.portfolio-body .MuiPaper-rounded{
+        border-radius: 6px;
+}
+
+.portfolio-body .portfolio-link{
+    text-decoration: none !important;
+}
