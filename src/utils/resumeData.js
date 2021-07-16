@@ -6,6 +6,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import sqa from '../assets/icons/sqa.png';
 import webDevelopment from '../assets/icons/web-development.png';
 import tindogApp from '../assets/images/tindog-app.png';
+import asapCoupon from '../assets/images/asapcoupon.png'
 export default {
   
         name: 'Mariam Naz',
@@ -85,6 +86,18 @@ export default {
             text: 'Fully Responsive Landing Page',
             image: tindogApp,
             link: 'http://tindog-app.surge.sh/'
+        },
+        {
+            title: 'Asap Coupon',
+            text: 'A complete website with admin panel',
+            image: asapCoupon,
+            link: 'https://www.asapcoupon.com/'
+        },
+        {
+            title: 'Asap Coupon',
+            text: 'A complete website with admin panel',
+            image: asapCoupon,
+            link: 'https://www.asapcoupon.com/'
         }
     ]
 }

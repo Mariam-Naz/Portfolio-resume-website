@@ -67,7 +67,7 @@
 }
 .portfolio-card .portfolio-icon{
     position: absolute;
-    margin-top: -7%;
+    margin-top: -6%;
     margin-left:9%;
     text-align: center;
     opacity: 0;
@@ -77,9 +77,9 @@
 }
 
 .portfolio-card .portfolio-icon .open-icon{
-    background-color: black;
+    background-color: white;
     color:var(--main-color);
-    min-width: 55px;
+    min-width: 50px;
     font-size: larger;
     font-weight: bold;
     border-radius:100px;

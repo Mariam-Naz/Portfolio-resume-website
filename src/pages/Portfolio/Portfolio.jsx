@@ -15,14 +15,14 @@ const Portfolio = () => {
                     <h6 className='section_title_text'>Portfolio</h6>
                 </Grid>
                 <Grid item xs={12} className='portfolio-body top_30'>
-                    <Grid container>
-                        <Grid item xs={12} sm={6} md={4} lg={4}>
-                            {ResumeData.portfolios.map(portfolio=>(
-                                <a href={portfolio.link} target='_blank' className='portfolio-link'>
-                                    <CustomCard title={portfolio.title} text={portfolio.text} img={portfolio.image} />
-                                </a>
-                            ))}
-                        </Grid>
+                    <Grid container spacing={4}>
+                        {ResumeData.portfolios.map(portfolio => (
+                            <Grid item xs={12} sm={6} md={4} lg={4}>
+                                    <a href={portfolio.link} target='_blank' className='portfolio-link'>
+                                        <CustomCard title={portfolio.title} text={portfolio.text} img={portfolio.image} />
+                                    </a>
+                            </Grid>
+                        ))}
                     </Grid>
                 </Grid>
             </Grid>

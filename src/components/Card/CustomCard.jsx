@@ -8,6 +8,7 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import webDevelopment from '../../assets/icons/web-development.png';
 import sqa from '../../assets/icons/sqa.png';
 import tindogApp from '../../assets/images/tindog-app.png';
+import asapCoupon from '../../assets/images/asapcoupon.png'
 import './CustomCard.css';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
