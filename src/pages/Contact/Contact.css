@@ -1,0 +1,27 @@
+.contact-form .margin-y{
+    margin-top:8% !important;
+    margin-bottom: 9% !important;
+}
+
+.contact-info .contact-info-text{
+    font-size: 14px !important;
+    font-weight: 400;
+    color: #787878;
+    line-height: 34px !important;
+}
+
+.contact-info .contact-info-text span{
+    font-size: 14px !important;
+    font-weight: 400;
+    color:black;
+}
+
+.contact-info .social-icons > a > .MuiSvgIcon-root{
+    color:black;
+    font-size: 16px !important;
+    margin-right: 16px;
+}
+
+.contact-info .social-icons{
+    margin-top: 15px;
+}
