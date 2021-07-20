@@ -22,7 +22,7 @@ export default {
                 icon: <MailIcon />
             },
             Facebook: {
-                link: 'www.facebook.com',
+                link: 'https://www.facebook.com',
                 text: 'MyFacebook',
                 icon: <FacebookIcon />
             },
@@ -32,7 +32,7 @@ export default {
                 icon: <LinkedInIcon />
             },
             Github: {
-                link: 'www.github.com',
+                link: 'https://www.github.com/Mariam-Naz',
                 text: 'MyGithub',
                 icon: <GitHubIcon />
             }

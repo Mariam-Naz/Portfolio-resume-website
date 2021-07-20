@@ -43,7 +43,7 @@ const Header = (props) => {
                     </Nav>
                     <div className='header_right'>
                         {Object.keys(ResumeData.socials).map(key=>(
-                            <a href={ResumeData.socials[key].link}>{ResumeData.socials[key].icon}</a>
+                            <a href={ResumeData.socials[key].link} target='_blank'>{ResumeData.socials[key].icon}</a>
                         ))}
                         <CustomBtn text='Hire Me' icon={<Telegram />} style={{float:"right"}}/>
                     </div>
